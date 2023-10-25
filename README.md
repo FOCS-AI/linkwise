@@ -14,7 +14,19 @@ Graph representation learning on real-world optical core networks outperforms ed
 ### Linkwise: Node2Vec and Logistic Regression
 - We implement a link prediction pipeline using graph embeddings and logistic regression on network topologies - COST266 and CORONET CONUS-60.
 
+### Model Evaluation using Test Accuracy 
+
 ![image](https://github.com/FOCS-AI/linkwise/assets/8778046/6d4302ec-c098-499a-9072-4af3efd42d44)
+
+
+### Comparison with Heuristics
+
+| Topology | Baseline (t = 0.5) | Accuracy (t = 0.5)              | Baseline (t = 0.1) | Accuracy (t = 0.1)             |
+|----------|--------------------|---------------------------------|--------------------|--------------------------------|
+| COST     | 0.0714 (Pagerank)  | **0.94 ± 0.01**                 | 0.0784 (Adamic Adar) | **0.88 ± 0.04**              |
+| BT       | 0.1222 (Adamic Adar) | **0.93 ± 0.01**               | 0.0432 (Jaccard)  | **0.93 ± 0.01**               |
+| CORONET  | 0.0256 (Jaccard)   | **0.88 ± 0.05**                 | 0.0423 (Random)   | **0.89 ± 0.00**               |
+
 
 
 ### Methodology
@@ -36,15 +48,6 @@ The pipeline follows these key steps:
 - `visualise_metrics()`: Visualizes results.
 - `run_pipeline()`: Runs the pipeline end-to-end.
 - `main()` function runs the pipeline for different test set sizes.
-
-### Comparison with Heuristics
-
-| Topology | Baseline (t = 0.5) | Accuracy (t = 0.5)              | Baseline (t = 0.1) | Accuracy (t = 0.1)             |
-|----------|--------------------|---------------------------------|--------------------|--------------------------------|
-| COST     | 0.0714 (Pagerank)  | **0.94 ± 0.01**                 | 0.0784 (Adamic Adar) | **0.88 ± 0.04**              |
-| BT       | 0.1222 (Adamic Adar) | **0.93 ± 0.01**               | 0.0432 (Jaccard)  | **0.93 ± 0.01**               |
-| CORONET  | 0.0256 (Jaccard)   | **0.88 ± 0.05**                 | 0.0423 (Random)   | **0.89 ± 0.00**               |
-
 
 ### Heuristics
 - Link prediction methods:
