@@ -4,8 +4,12 @@
 Graph representation learning on real-world optical core networks outperforms edge prediction heuristics by 10 times, achieving up to 93.4% accuracy on BT(UK), COST(EU), and CORONET(USA) by learning from 10% training data.
 
 ### Dataset
-- COST266: A European network topology with 37 nodes and 57 links. Nodes represent cities and edges represent fiber links between cities.
-- CORONET CONUS-60: A US backbone network topology with 60 nodes and 150 links.
+- COST266: A European network topology with 37 nodes and 57 links. Nodes represent cities, and edges represent fiber links between cities.
+- CORONET CONUS-60: A US backbone network topology with 60 nodes and 75 links.
+- BT: UK's core backbone optical network with 106 nodes and 180 edges
+
+![image](https://github.com/FOCS-AI/linkwise/assets/8778046/01e0a30f-f2af-4cc3-9d07-b3af4b628536)
+
 
 ### Linkwise: Node2Vec and Logistic Regression
 - We implement a link prediction pipeline using graph embeddings and logistic regression on network topologies - COST266 and CORONET CONUS-60.
