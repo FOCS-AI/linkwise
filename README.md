@@ -14,6 +14,9 @@ Graph representation learning on real-world optical core networks outperforms ed
 ### Linkwise: Node2Vec and Logistic Regression
 - We implement a link prediction pipeline using graph embeddings and logistic regression on network topologies - COST266 and CORONET CONUS-60.
 
+![image](https://github.com/FOCS-AI/linkwise/assets/8778046/6d4302ec-c098-499a-9072-4af3efd42d44)
+
+
 ### Methodology
 The pipeline follows these key steps:
 - Construct the graph and compute geographical distance features between nodes.
