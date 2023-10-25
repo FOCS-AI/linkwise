@@ -85,4 +85,12 @@ The pipeline follows these key steps:
 ### Please Note: 
 - _Data about BT's infrastructure is not available due to privacy concerns. Users can utilise the COST or CORONET topologies provided in the code for analysis._
 - _Random seeds can generate different results at each run; irrespective of the minor changes, the performance gains for our model compared to heuristics remain 10x.
-_
+
+### References
+- S. Orlowski, R. Wessäly, M. Pióro, A. Tomaszewski, "Sndlib 1.0—Survivable Network Design Library," Networks, vol. 55, no. 3, pp. 276--286, 2010.
+- Y.-Z. Xu, D. Saad, "Network Pruning and Growth: Probabilistic Optimization," Physical Review Research, vol. 5, no. 3, 033087, 2023.
+- A. Grover, J. Leskovec, "node2vec: Scalable Feature Learning for Networks," in Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, 2016, pp. 855--864.
+- R. Matzner, D. Semrau, R. Luo, G. Zervas, P. Bayvel, "Making Intelligent Topology Design Choices: Understanding Structural & Physical Property Performance Implications in Optical Networks," Journal of Optical Communications and Networking, vol. 13, no. 8, pp. D53--D67, 2021.
+- M. Zhang, "Graph Neural Networks: Link Prediction," in Graph Neural Networks: Foundations, Frontiers, and Applications, L. Wu, P. Cui, J. Pei, L. Zhao, Eds. Springer Singapore, 2022, pp. 195--223.
+- P. Wright, R. Davey, A. Lord, "Cost Model Comparison of ZR/ZR+ Modules Against Traditional WDM Transponders for 400G IP/WDM Core Networks," in 2020 European Conference on Optical Communications (ECOC), IEEE, 2020, pp. 1--4.
+
