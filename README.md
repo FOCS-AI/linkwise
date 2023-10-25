@@ -3,17 +3,9 @@
 ### Topology-Driven Edge Predictions with Graph Machine Learning for Optical Network Growth: 
 Graph representation learning on real-world optical core networks outperforms edge prediction heuristics by 10 times, achieving up to 93.4% accuracy on BT(UK), COST(EU), and CORONET(USA) by learning from 10% training data.
 
-### Code
-**Packages:**
-- numpy
-- pandas
-- folium
-- networkx
-- node2vec
-- scikit-learn
-- matplotlib
-- seaborn
-- torch
+### Dataset
+- COST266: A European network topology with 37 nodes and 57 links. Nodes represent cities and edges represent fiber links between cities.
+- CORONET CONUS-60: A US backbone network topology with 60 nodes and 150 links.
 
 ### Linkwise: Node2Vec and Logistic Regression
 - We implement a link prediction pipeline using graph embeddings and logistic regression on network topologies - COST266 and CORONET CONUS-60.
@@ -56,12 +48,18 @@ The pipeline follows these key steps:
 - `percentages_to_test` - Percentage of edges to remove
 - Output: accuracy of different prediction methods when a percentage of edges are removed from the graphs.
 
+### Python Packages (Python 3.10.12)
+- numpy
+- pandas
+- folium
+- networkx
+- node2vec
+- scikit-learn
+- matplotlib
+- seaborn
+- torch
 
-### Dataset
-- COST266: A European network topology with 37 nodes and 57 links. Nodes represent cities and edges represent fiber links between cities.
-- CORONET CONUS-60: A US backbone network topology with 60 nodes and 150 links.
-
-Notes:  
+### Data Sources and Formats:
 - COST has been taken from SNDLib http://sndlib.zib.de/home.action
 - CORONET has been taken from https://github.com/XuYZh/Network-Pruning-and-Growth---Probabilistic-Optimization
 - Raw dataset files have been added for users in case they need them.
