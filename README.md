@@ -5,6 +5,37 @@ Graph representation learning on real-world optical core networks outperforms ed
 
 ### Code
 
+**Packages:**
+- numpy
+- pandas
+- folium
+- networkx
+- node2vec
+- scikit-learn
+- matplotlib
+- seaborn
+- torch
+
+**Heuristics**
+- Implements various link prediction methods on the COST266 and Coronet CONUS 60 graphs.
+- Imports and utility functions like distance calculation and graph creation
+- Initialization of the COST266 and Coronet CONUS 60 graphs with node attributes
+- Link prediction methods:
+- -  Jaccard Coefficient
+- - Adamic Adar Index
+- - Preferential Attachment
+- - Resource Allocation Index
+- - Common Neighbors
+- - Triadic Closure
+- -  Random
+- - Katz Index
+- - Rooted PageRank
+- Functions to run predictions and evaluate accuracy
+- Sample runs on the graphs with different random seeds
+- Run the cells to initialize the graphs and functions
+- seeds_to_test - Random seeds
+- percentages_to_test - Percentage of edges to remove
+- Output shows the accuracy of different prediction methods when a percentage of edges are removed from the graphs.
 
 
 ### Dataset
