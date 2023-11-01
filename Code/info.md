@@ -1,6 +1,6 @@
 The code contains the following files: 
 
-1. Heuristics Link Prediction
-2. Node2vec Link Prediction
-3. Mapping and Saving Topologies
-4. Plotting Test Accuracy 
+1. Heuristics Link Prediction (Baseline)
+2. Node2vec Link Prediction with Logistic Regression Classifier 
+3. Mapping (Geospatially) and Saving Topologies
+4. Plotting Test Accuracy at Different Train Sizes
