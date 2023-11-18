@@ -84,7 +84,7 @@ The pipeline follows these key steps:
 
 ### Please Note: 
 - _Data about BT's infrastructure is not available due to privacy concerns. Users can utilise the COST or CORONET topologies provided in the code for analysis._
-- _Random seeds can generate different results at each run; irrespective of the minor changes, the performance gains for our model compared to heuristics remain 10x.
+- _Random seeds can generate different results at each run; irrespective of the minor changes, the performance gains for our model compared to heuristics remain 10x._
 
 ### References
 - S. Orlowski, R. Wessäly, M. Pióro, A. Tomaszewski, "Sndlib 1.0—Survivable Network Design Library," Networks, vol. 55, no. 3, pp. 276--286, 2010.
